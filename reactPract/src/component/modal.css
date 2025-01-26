@@ -1,0 +1,35 @@
+
+
+
+.madalContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modalOverlay{
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+
+}
+
+
+.modal{
+
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+
+}
